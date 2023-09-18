@@ -15,22 +15,7 @@ a {
     text-decoration: none;
 }
 body{
-    font-family: 'Poppins';
     font-size: 1.6rem;
-}
-.btn{
-    display: inline-block;
-    color: #fff;
-    background-color: #0f1b4c;
-    padding: 18px 22px;
-    border-radius: 12px;
-    font-size: 1.4rem;
-    font-weight: 500;
-    min-width: 98px;
-    text-align: center;
-}
-.btn:hover {
-    opacity: 0.9;
 }
 .arow-right__icon{
     margin-left: 10px;
