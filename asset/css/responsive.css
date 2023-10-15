@@ -1,17 +1,26 @@
-/* Mobile and Tablet */
-@media (max-width: 1023px) {
-    .hide-on-mobile-tablet{
+/* PC breakpoint */
+@media screen and (min-width: 992px) {
+    .hide-on-pc{
         display: none;
     }
 }
+
+/* Tablet & Mobile */
+@media screen and (max-width: 991.98px) {
+    .hide-on-tablet-mobile{
+        display: none;
+    }
+}
+
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
     .hide-on-tablet{
         display: none;
     }
 }
+
 /* Mobile */
-@media (max-width: 739px) {
+@media screen and (max-width: 767.98px) {
     .hide-on-mobile{
         display: none;
     }
