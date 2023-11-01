@@ -10,6 +10,12 @@
     .hide-on-tablet-mobile{
         display: none;
     }
+    .statistic__item.decoration-top::after{
+        display: none;
+    }
+    .statistic__item.decoration-bottom::after{
+        display: none;
+    }
 }
 
 /* Tablet */
@@ -23,5 +29,8 @@
 @media screen and (max-width: 767.98px) {
     .hide-on-mobile{
         display: none;
+    }
+    .welcome__heading{
+        margin-top: 144px;
     }
 }
